@@ -1,0 +1,12 @@
+[project]
+name = "aws-mcp-simple-remote-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bedrock-agentcore-starter-toolkit>=0.2.8",
+    "fastmcp>=2.14.4",
+    "mcp-proxy-for-aws>=1.1.4",
+    "strands-agents>=1.23.0",
+]
